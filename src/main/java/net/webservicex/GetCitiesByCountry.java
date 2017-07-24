@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for anonymous complex type.
+ * <p>
+ * Java class for anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType>
@@ -28,37 +30,32 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "countryName"
-})
+@XmlType(name = "", propOrder = { "countryName" })
 @XmlRootElement(name = "GetCitiesByCountry")
 public class GetCitiesByCountry {
 
-    @XmlElement(name = "CountryName")
-    protected String countryName;
+	@XmlElement(name = "CountryName")
+	protected String countryName;
 
-    /**
-     * Gets the value of the countryName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCountryName() {
-        return countryName;
-    }
+	/**
+	 * Gets the value of the countryName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCountryName() {
+		return countryName;
+	}
 
-    /**
-     * Sets the value of the countryName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCountryName(String value) {
-        this.countryName = value;
-    }
+	/**
+	 * Sets the value of the countryName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCountryName(String value) {
+		this.countryName = value;
+	}
 
 }
